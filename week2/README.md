@@ -7,9 +7,9 @@ In this class we'll go over the basics of setting up a working python environmen
 
 If you have git installed, clone the workshop repository from GitHub:
 ```sh
-git clone https://github.com/clauswilke/EEB384K-workshops.git
+git clone https://github.com/wilkelab/EEB384K-workshops.git
 ```
-Alternatively, you can download a zip file from here: https://github.com/clauswilke/EEB384K-workshops/archive/refs/heads/main.zip
+Alternatively, you can download a zip file from here: https://github.com/wilkelab/EEB384K-workshops/archive/refs/heads/main.zip
 Unzip after the download.
 
 In the terminal app, navigate into the folder of the repository. The exact details will depend on whether you used `git clone` or zip download. If you used `git clone`:
@@ -46,7 +46,7 @@ Deactivate the environment:
 deactivate
 ```
 
-Now everything is set up properly. Now go to VS Code and open the notebook for this week.cd 
+Now everything is set up properly. Next go to VS Code and open the folder for week2. 
 
 
  
