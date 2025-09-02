@@ -1,4 +1,4 @@
 ipykernel
+jupyter
 numpy
 torch
-torchvision

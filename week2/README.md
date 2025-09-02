@@ -1,22 +1,16 @@
 ## Workshop overview
 
-In this class we'll go over the basics of setting up a working python environment, edit code, manage dependencies, etc. You will do this on your own laptop, as it's important to know how to run things locally. In general, this will require (i) a python installation, (ii) Visual Studio Code, and (iii) a terminal app. Later in the class we will also need git. If you routinely use these technologies you're probably already all set. If not, installation instructions are at the bottom of this page. It's much easier to set things up on a Mac than on Windows, but it is possible to set things up properly on Windows also.
+In this class we'll go over the basics of setting up a working python environment, edit code, manage dependencies, etc. You will do this on your own laptop, as it's important to know how to run things locally. In general, this will require (i) a python installation, (ii) Visual Studio Code, and (iii) a terminal app. If you routinely use these technologies you're probably already all set. If not, installation instructions are at the bottom of this page. It's much easier to set things up on a Mac than on Windows, but it is possible to set things up properly on Windows also.
 
 
 ## Creating a python virtual environment, installing dependencies, starting Jupyter
 
-If you have git installed, clone the workshop repository from GitHub:
-```sh
-git clone https://github.com/wilkelab/EEB384K-workshops.git
-```
-Alternatively, you can download a zip file from here: https://github.com/wilkelab/EEB384K-workshops/archive/refs/heads/main.zip
+Download a zip file of the workshop materials from here: https://github.com/wilkelab/EEB384K-workshops/archive/refs/heads/main.zip
 Unzip after the download.
 
-In the terminal app, navigate into the folder of the repository. The exact details will depend on whether you used `git clone` or zip download. If you used `git clone`:
-```sh
-cd EEB384K-workshops
-```
-If you used zip download, the folder will be called `EEB384K-workshops-main`, and you have to first nagivate to wherever you downloaded and unzipped it. For example, if you did this on your desktop, you would have to type:
+Note: We're deliberately not using `git clone` because VS Code gets confused if it sees a top-level git repository but python environments in subfolders, which is what we're doing here.
+
+In the terminal app, navigate into the folder of the repository. The exact details will depend on where you downloaded and unzipped it. For example, if you did this on your desktop, you would have to type:
 ```sh
 cd ~/Desktop/EEB384K-workshops-main
 ```
@@ -46,9 +40,7 @@ Deactivate the environment:
 deactivate
 ```
 
-Now everything is set up properly. Next go to VS Code and open the folder for week2. 
-
-
+Now everything is set up properly. Next go to VS Code and open the folder for week2. (Do not open the parent folder! VS Code will not find the python virtual environment if you open the parent folder.) Then open the notebook `week2.ipynb` and follow the instructions there.
  
 
 ## Installation instructions for Mac
