@@ -5,20 +5,15 @@ In this class we'll go over the basics of setting up a working python environmen
 
 ## Creating a python virtual environment, installing dependencies, starting Jupyter
 
-Download a zip file of the workshop materials from here: https://github.com/wilkelab/EEB384K-workshops/archive/refs/heads/main.zip
-Unzip after the download.
+In a terminal, download the workshop materials, unzip, and navigate into the workshop folder:
+```sh
+wget https://github.com/wilkelab/EEB384K-workshops/archive/refs/heads/main.zip
+unzip main.zip
+cd EEB384K-workshops-main/week2
+```
 
 Note: We're deliberately not using `git clone` because VS Code gets confused if it sees a top-level git repository but python environments in subfolders, which is what we're doing here.
 
-In the terminal app, navigate into the folder of the repository. The exact details will depend on where you downloaded and unzipped it. For example, if you did this on your desktop, you would have to type:
-```sh
-cd ~/Desktop/EEB384K-workshops-main
-```
-
-Now navigate into the folder for week 2:
-```sh
-cd week2
-```
 
 Create a python virtual environment:
 ```sh
