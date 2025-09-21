@@ -4,7 +4,7 @@ In a terminal, download the workshop materials, unzip, and navigate into the wor
 ```sh
 wget https://github.com/wilkelab/EEB384K-workshops/archive/refs/heads/main.zip
 unzip main.zip
-cd EEB384K-workshops-main/week3-4
+cd EEB384K-workshops-main/weeks3-4
 ```
 
 Note: We're deliberately not using `git clone` because VS Code gets confused if it sees a top-level git repository but python environments in subfolders, which is what we're doing here.
@@ -17,4 +17,4 @@ pip install -r requirements.txt
 deactivate
 ```
 
-Now everything is set up properly. Next go to VS Code and open the folder for week3. (Do not open the parent folder! VS Code will not find the python virtual environment if you open the parent folder.) Then open the notebook `week3.ipynb` (for week 3) or `week4.ipynb` (for week 4) and follow the instructions there.
+Now everything is set up properly. Next go to VS Code and open the folder for weeks3-4. (Do not open the parent folder! VS Code will not find the python virtual environment if you open the parent folder.) Then open the notebook `week3.ipynb` (for week 3) or `week4.ipynb` (for week 4) and follow the instructions there.
