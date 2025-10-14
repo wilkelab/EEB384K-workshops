@@ -1,0 +1,11 @@
+ipykernel
+jupyter
+ipywidgets
+torch
+numpy
+pyarrow
+polars
+plotnine
+scikit-learn
+tqdm
+transformers
