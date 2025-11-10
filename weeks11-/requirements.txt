@@ -5,3 +5,4 @@ ipywidgets
 torch
 py3Dmol
 biotite
+matplotlib
