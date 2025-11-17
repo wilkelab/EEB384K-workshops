@@ -1,0 +1,17 @@
+ipykernel
+jupyter
+ipywidgets
+torch
+torchtune
+torchao
+tqdm
+numpy
+pandas
+rdkit
+transformers
+scikit-learn
+matplotlib
+seaborn
+pyarrow
+polars
+plotnine
